@@ -1,0 +1,16 @@
+Project Plugins
+===========
+Javascript
+--------------
+(1) https://github.com/jonthornton/jquery-timepicker (time pair)
+(2) https://github.com/jonthornton/Datepair.js (datepair.js)
+(3) https://github.com/nicolasbize/magicsuggest  (mugic select like chosen)
+
+
+
+Css
+---------
+
+Framework
+----------------
+Codeigniter 2.2.0 (stable version)

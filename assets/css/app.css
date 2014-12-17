@@ -1,0 +1,281 @@
+@font-face{
+    font-family:'Robot';
+    src:url('../fonts/robot-regular.eot') format('embedded-opentype'),
+        url('../fonts/robot-regular.woff') format('woff'),
+        url('../fonts/robot-regular.ttf') format('truetype');
+        font-weight:bold;
+        font-style:normal;
+}
+body{
+    font-family:"Robot",Arial,Helvetica,sans-senif !important;
+}
+.red{
+    border:1px solid red;
+}
+/*========================= start default ==============================*/
+/*========================= end default ==============================*/
+/*========================= start header ==============================*/
+.header-panel{
+    padding-top:20px;
+}
+ul.register-link li{
+    float:left;
+    padding:0px 10px;
+}
+ul.register-link li a{
+    color:#000;
+}
+ul.register-link li:first-child{
+    border-right:1px solid #000;
+}
+
+ul.wish-links{
+    float:right;
+}
+ul.wish-links li{
+    float:left;
+    padding:0px 10px;
+}
+ul.wish-links li:first-child{
+    border-right:1px solid #000;
+}
+ul.wish-links li a{
+    color:#000;
+}
+ul.wish-links li.mybag span{
+    float:left;
+    display:block;
+    padding:0px 5px;    
+}
+.mybag span.name{
+    font-weight:bold
+}
+.nav-panel{
+    padding:20px 0px;
+}
+
+ul.df-nav li{
+    display:inline-block;
+    color: #000;
+    margin-right:30px;
+    font-size:16px;
+    cursor:pointer;
+    position:relative
+}
+ul.df-nav li ul{
+    position:absolute;
+    z-index:100;
+    top:22px;
+    left:0px;
+    width:180px;
+    background-color:#ddd;
+    opacity:0;
+    visibility:hidden
+}
+ul.df-nav li ul li{
+    border-bottom:1px solid #fff;
+    display:block;
+    width:100%;
+}
+ul.df-nav li ul li a{
+    padding:10px; 
+    display:block
+}
+ul.df-nav li ul li a:hover{
+    background-color:#999;
+}
+ul.df-nav li:hover ul{
+    opacity:1;
+    visibility:visible
+}
+
+ul.df-nav li a{
+    color: #000;
+}
+
+/*========================= end header ==============================*/
+/*========================= start filter==============================*/
+ul.fil-nav li{
+    width:100%;
+    display:block;
+    overflow:hidden
+}
+ul.fil-nav li a{
+    color:#000;
+}
+ul.fil-nav li a span{
+    float:left;
+    margin-top:-2px;
+}
+ul.fil-nav li a span.check{
+    width:15px;
+    height:15px;
+    border:1px solid #ddd;
+    margin-right:5px;
+    padding-top:10px;
+    margin-top:0px;
+    
+}
+h4.sponser-heading{
+    color:#FF7519;
+}
+.df-filter-panel{
+    padding:10px 0px;
+}
+.df-bottom{
+    border-bottom:1px solid #ddd;
+}
+a.up-arrow{
+    background:transparent url('../img/asc_arrow.gif') no-repeat;
+    width:20px;
+    height:30px;
+      
+}
+a.toggle-circle-plus{
+    background:transparent url('../img/collapse.png') no-repeat;
+    width:25px;
+    height:25px;
+    float:right;
+    background-position:-387px 0px
+        
+}
+.lf-filter .fil-item-area{
+    border-bottom:1px solid #ddd;
+    padding-bottom:10px;
+    margin-bottom:5px;
+}
+.fil-item-area .h-potion{
+    border:1px solid transparent;
+    padding-bottom:10px;
+}
+.fil-item-area .h-potion span{
+    font-weight:bold
+}
+.btn-label{
+    margin-bottom:20px;
+}
+ul.sponor-list li,
+ul.shop-list li{
+    width:100%;
+    overflow:hidden;
+    margin-bottom:30px;
+    clear:both;
+}
+ul.shop-list{
+ margin-top:30px;    
+}
+
+.sponor-list .items img,
+.shop-list .items img{
+    border:1px solid #ddd;
+}
+.items .desc-panel span.box{
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    padding:5px 10px;;
+    margin-left:20px;
+    color:#fff;
+}
+.online{
+    background-color:#449d44;
+    border:1px solid #398439;
+}
+.instore{
+    background-color:#ff4700;
+    border:1px solid #ff4700;
+}
+.map_view{
+    float:right;
+     border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    padding:3px 10px;
+    border:1px solid #ddd;
+    margin-top:-3px; 
+}
+.online-branch{
+    padding:3px 10px;
+    display:inline-block;
+    border:1px solid #1686CC;
+    background-color:#1686CC;
+    color:#fff;
+    
+}
+.items .desc-panel span.size{
+    color:#ff4700
+}
+
+.items h4{
+    margin-top:0px;
+}
+.items .branchphoto-panel img{
+    height:170px;
+    width:100%;
+}
+.items .linkbtn-panel{
+    width:100%;
+    clear:both;
+    padding:10px 0px;
+}
+.btn-link{
+    display:block;
+    width:46%;
+    text-align:center;
+    background-color:#686868;
+    color:#fff;
+    padding:5px 0px;
+}
+.btn-link:hover{
+    background-color:#686868;
+    color:#fff;
+}
+.linkbtn-panel .btn-savetofav{
+    float:left;
+}
+.linkbtn-panel .btn-share{
+   
+    float:right;
+   
+}
+/*========================= end default==============================*/
+
+/*========================= start login ==============================*/
+.user-area{
+    border-top:1px solid #ddd;
+    padding:20px;
+}
+.user-area .login-panel{
+    box-shadow:0px 0px 10px #DDD;
+    -moz-box-shadow:0px 0px 10px #DDD;
+    -webkit-box-shadow:0px 0px 10px #DDD;
+    padding:30px; 
+    overflow:hidden;
+}
+.user-area .login-panel a.btn-forgot{
+   font-size:12px;
+  
+}
+.user-area .login-panel .btn-submit{
+    display:block;
+    width:100%;
+    padding:5px 0px;
+    background-color:#FF9917;
+    border:1px solid #E87B0E;
+    color:#fff;
+    font-weight:bold
+}
+.user-area .login-panel .line{
+    border-top:1px solid #ddd;
+}
+.user-area .login-panel .ln-facebook{
+    line-height:20px;
+}
+.user-area .login-panel h3{
+    color:#4B4B4B;
+    margin:0px;
+    margin-bottom:20px;
+}
+
+
+/*========================= ebdlogin ==============================*/
